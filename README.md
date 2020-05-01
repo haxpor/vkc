@@ -21,4 +21,10 @@ This is work-in-progress.
 * [ ] Bounding box for mesh/model
 * [ ] Ray, and Plane collision detection
 * [ ] Performance statistics text rendering on screen
+* [ ] View frustum culling
+* [ ] Terrain generation/rendering
+* [ ] Tessellation for terrain LOD
+* [ ] Support textures in format PNG, TGA, DDS (with DXT/BC)
+* [ ] Directional light, Spot light, and Omni-light
+* [ ] Reflection, and Refraction plane
 * others to add...
