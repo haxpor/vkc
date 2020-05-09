@@ -1,7 +1,8 @@
 # vkc
 
 vkc aims to be more like a helper Vulkan library to ease integration Vulkan graphics into
-your game.
+your game. It aims to be tightly integrated with Blender 2.8+ both in term of file format exports,
+and using Blender as scene editor importing into the game.
 
 This is work-in-progress.
 
@@ -37,4 +38,5 @@ extract it at the root level of the project, then run the program.
 * [ ] Support textures in format PNG, TGA, DDS (with DXT/BC)
 * [ ] Directional light, Spot light, and Omni-light
 * [ ] Reflection, and Refraction plane
+* [ ] `.mtl` material file support
 * maybe others...
