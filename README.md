@@ -7,8 +7,9 @@ This is work-in-progress.
 
 # Build
 
-* `make` - to build `libvkc.so`
+* `make` - to build `libvkc.so`, and testing program
 * `make test` - to build testing program consuming the library `libvkc.so`.
+* `make clean` - to clean the built files
 
 # Execution
 
