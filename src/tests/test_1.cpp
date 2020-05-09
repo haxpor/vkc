@@ -4,5 +4,6 @@
 int main()
 {
     vkc::init(800, 600, "Test");
-	return 0;
+    vkc::loopRun();
+    return 0;
 }

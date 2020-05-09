@@ -34,3 +34,6 @@
 # swap files
 *.swp
 *.swo
+
+# assets file will be downloaded externally and not mess git tree
+/res
