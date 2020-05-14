@@ -24,7 +24,7 @@
 /** global variables (only for this implementation file. **/
 /** FIXME: Make it configurable */
 const std::string MODEL_PATH = "res/models/mythical-beast.obj";
-const std::string TEXTURE_PATH = "res/textures/Lev-edinorog_complete_0.png";
+const std::string TEXTURE_PATH = "res/models/Lev-edinorog_complete_0.png";
 const float FPS_GRANULARITY_SEC = 1.0f; // how often to update FPS
 char title[50];
 
@@ -1925,7 +1925,7 @@ VKC_INTRN void loadModel()
 
             vertex.texCoord = {
                 attrib.texcoords[2 * index.texcoord_index + 0],
-                attrib.texcoords[2 * index.texcoord_index + 1]
+                1.0f - attrib.texcoords[2 * index.texcoord_index + 1]   // to make source model's texture coordinate intact
             };
 
             vertex.color = {1.0f, 1.0f, 1.0f};
