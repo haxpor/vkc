@@ -14,8 +14,9 @@ This is work-in-progress.
 
 # Execution
 
-Prior to running the test program, make sure you download the asset binary file from https://github.com/haxpor/vkc/releases/tag/res-1,
-extract it at the root level of the project, then run the program.
+Prior to running the test program, make sure you download the asset binary file from https://github.com/haxpor/vkc/releases then extract it at the root level of the project, then run the program.
+
+In case you checkout an older commit, you have to make sure to use not newer resource. Check its commit hash.
 
 # TODO
 
